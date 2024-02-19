@@ -1,0 +1,44 @@
+.custom-bg-color {
+    background-color: rgba(29, 209, 0, 0.2); 
+}
+
+.bus-seat-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+  }
+
+  .seat-name{
+    width: 60px;
+    height: 60px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+  
+.btn.clicked{
+  background-color: rgb(99, 210, 99);
+}
